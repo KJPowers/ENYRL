@@ -25,7 +25,7 @@ public class DBManager
     System.out.println("insert into marksman (name, team_id) values(" +
                        p_strName +
                        ", (select team_id from team where name=" +
-                       p_StrTeam +
+                       p_strTeam +
                        "))");
   }
 
