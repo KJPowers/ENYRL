@@ -14,7 +14,8 @@ team_id         integer references team(team_id)
 
 MATCH
 match_id        integer primary key
-date            date
+season_id       integer references season(season_id) not null
+date            date not null
 home_team_id    integer references team(team_id) not null
 away_team_id    integer references team(team_id) not null
 
