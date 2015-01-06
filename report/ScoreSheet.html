@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>ENYRL Score Sheet</title>
+    <style>
+      body
+      {
+        width: 612pt; /* Width of Letter-Size paper in points */
+      }
+      h1, h2
+      {
+        text-align: center;
+      }
+      table.Container
+      {
+        align: center;
+        
+        width: 90%;
+      }
+      table.Container tr.Score div,
+      table.Container tr.Score table
+      {
+        border: 2px solid black;
+      }
+      table.Container div,
+      table.Container table
+      {
+        border: 1px solid black;
+        width: 100%;
+      }
+      #FinalScore
+      {
+        border: 2px solid black;
+      }
+      #Signature
+      {
+        height: 50pt;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Eastern New York Rifle League</h1>
+    <h2>Score Sheet, $MATCH_DATE</h2>
+    <table class="Container">
+      <!-- Headers for score tables -->
+      <tr class="Score">
+        <th>
+          <div>
+            Home<br/>
+            $HOME_TEAM_NAME
+          </div>
+        </th>
+        <th>
+          <div>
+            Visitors<br/>
+            $AWAY_TEAM_NAME
+          </div>
+        </th>
+      </tr>
+      
+      <!-- Score tables -->
+      <tr class="Score">
+        <td>
+          <table class="HomeScores">
+            <th><td id="TNum">T#</td><td id="Marksman">Shooter</td><td id="Average">Avg</td> <td class="Score">Prone</td><td class="Score">Sitting</td><td class="Score">Offhand</td><td class="Score">Total</td></th>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+          </table>
+        </td>
+        <td>
+          <table class="AwayScores">
+            <th><td id="TNum">T#</td><td id="Marksman">Shooter</td><td id="Average">Avg</td> <td class="Score">Prone</td><td class="Score">Sitting</td><td class="Score">Offhand</td><td class="Score">Total</td></th>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+            <tr><td>&nbsp;</td>      <td>$MARKSMAN_NAME</td>       <td>$MARKSMAN_AVERAGE</td><td>&nbsp;</td>             <td>&nbsp;</td>               <td>&nbsp;</td>               <td>&nbsp;</td>             </tr>
+          </table>
+        </td>
+      </tr>
+      
+      <!-- Team averages -->
+      <tr>
+        <td>
+          <div>$HOME_TEAM_NAME Average:</div>
+        </td>
+        <td>
+          <div>$AWAY_TEAM_NAME Average:</div>
+        </td>
+      </tr>
+      
+      <!-- Top scores -->
+      <tr>
+        <td>
+          <table class="TopScores">
+            <th><td colspan="2">Shooter</td>          <td>Score</td>           </th>
+            <tr><td>1</td><td></td>                   <td></td>                </tr>
+            <tr><td>2</td><td></td>                   <td></td>                </tr>
+            <tr><td>3</td><td></td>                   <td></td>                </tr>
+            <tr><td>4</td><td></td>                   <td></td>                </tr>
+            <tr><td>5</td><td></td>                   <td></td>                </tr>
+            <tr><td>6</td><td></td>                   <td></td>                </tr>
+            <tr><td colspan="2">Raw Score Total</td>  <td></td>                </tr>
+            <tr><td colspan="2">Handicap</td>         <td></td>                </tr>
+            <tr><td colspan="2">Final Score Total</td><td id="FinalScore"></td></tr>
+          </table>
+        </td>
+        <td>
+          <table class="TopScores">
+            <th><td colspan="2">Shooter</td>          <td>Score</td>           </th>
+            <tr><td>1</td><td></td>                   <td></td>                </tr>
+            <tr><td>2</td><td></td>                   <td></td>                </tr>
+            <tr><td>3</td><td></td>                   <td></td>                </tr>
+            <tr><td>4</td><td></td>                   <td></td>                </tr>
+            <tr><td>5</td><td></td>                   <td></td>                </tr>
+            <tr><td>6</td><td></td>                   <td></td>                </tr>
+            <tr><td colspan="2">Raw Score Total</td>  <td></td>                </tr>
+            <tr><td colspan="2">Handicap</td>         <td></td>                </tr>
+            <tr><td colspan="2">Final Score Total</td><td id="FinalScore"></td></tr>
+          </table>
+        </td>
+      </tr>
+      
+      <!-- Signatures -->
+      <tr class="Score">
+        <td>
+          <div id="Signature">Home Team Captain</div>
+        </td>
+        <td>
+          <div id="Signature">Visiting Team Captain</div>
+        </td>
+      </tr>
+    </table>
+  <body>
+</html>
