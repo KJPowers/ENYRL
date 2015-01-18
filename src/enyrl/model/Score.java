@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 
-package enyrl.database;
+package enyrl.model;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Objects;
+
+import enyrl.database.ScoreType;
 
 /**
  *

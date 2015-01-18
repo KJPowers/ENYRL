@@ -81,6 +81,7 @@ public class CmdLineUi
         break;
       case SCORE_SHEET:
         System.out.println("I would print a score sheet now if Keith would just write the code for it!");
+
         break;
       case HELP:
         printUsage();
