@@ -11,7 +11,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Date;
 import java.util.HashMap;
+
+import enyrl.model.Match;
+import enyrl.model.Season;
 
 /**
  * Class to access ( read from, write to ) the database
@@ -20,6 +24,22 @@ import java.util.HashMap;
  */
 public class Accessor
 {
+  // Static class
+  private Accessor() { }
+
+  public static Season getSeason(final Date p_dNow)
+  {
+    // Get the season encompassing p_dNow
+    return null;
+  }
+
+  public static Match getMatch(final BigDecimal p_bdMatchId)
+  {
+    // TODO
+
+    return null;
+  }
+
 
   public static HashMap<BigDecimal, String> getMarksmanInfo()
   {
