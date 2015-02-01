@@ -17,39 +17,39 @@ import enyrl.database.ScoreType;
  * @author rnufer
  */
 public class Score {
-  
-  private final BigDecimal m_lScoreId; 
-  private final BigDecimal m_lMatchId ; 
-  private final BigDecimal m_lTargetNum; 
-  private final BigDecimal m_lMarksmanId; 
-  
-  private HashMap<ScoreType, BigDecimal> m_hmScore = new HashMap<ScoreType, BigDecimal>(); 
-  
-  public Score(BigDecimal p_lScoreId, BigDecimal p_lMatchId, BigDecimal p_lTargetNum,
-               BigDecimal p_lMarksmanId, BigDecimal p_lOffhandScore,BigDecimal p_lProneScore,
-               BigDecimal p_lSittingScore)
+
+  private final BigDecimal m_lScoreId;
+  private final BigDecimal m_lMatchId ;
+  private final BigDecimal m_lTargetNum;
+  private final BigDecimal m_lMarksmanId;
+
+  private final HashMap<ScoreType, BigDecimal> m_hmScore = new HashMap<ScoreType, BigDecimal>();
+
+  public Score(final BigDecimal p_lScoreId, final BigDecimal p_lMatchId, final BigDecimal p_lTargetNum,
+               final BigDecimal p_lMarksmanId, final BigDecimal p_lOffhandScore,final BigDecimal p_lProneScore,
+               final BigDecimal p_lSittingScore)
   {
-    m_lScoreId = p_lScoreId; 
+    m_lScoreId = p_lScoreId;
     m_lMatchId = p_lMatchId;
-    m_lTargetNum = p_lTargetNum; 
-    m_lMarksmanId = p_lMarksmanId; 
-    
+    m_lTargetNum = p_lTargetNum;
+    m_lMarksmanId = p_lMarksmanId;
+
     m_hmScore.put(ScoreType.OFFHAND, p_lOffhandScore);
     m_hmScore.put(ScoreType.PRONE, p_lProneScore);
     m_hmScore.put(ScoreType.SITTING, p_lSittingScore);
-    
+
   }
-  
-  public Score(BigDecimal p_lScoreId, BigDecimal p_lTargetNum, BigDecimal p_lMarksmanId)
+
+  public Score(final BigDecimal p_lScoreId, final BigDecimal p_lTargetNum, final BigDecimal p_lMarksmanId)
   {
     this(p_lScoreId, BigDecimal.ZERO, p_lTargetNum, p_lMarksmanId, BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO);
   }
 
-  public void setScore(ScoreType p_eScoreType, BigDecimal p_lScore)
+  public void setScore(final ScoreType p_eScoreType, final BigDecimal p_lScore)
   {
     m_hmScore.put(p_eScoreType, p_lScore);
   }
-  
+
   public BigDecimal getScoreId() {
     return m_lScoreId;
   }
@@ -66,7 +66,7 @@ public class Score {
     return m_lMarksmanId;
   }
 
-  public BigDecimal getScore(ScoreType p_scoreType) {
+  public BigDecimal getScore(final ScoreType p_scoreType) {
     return m_hmScore.get(p_scoreType);
   }
 
@@ -87,7 +87,7 @@ public class Score {
   }
 
   @Override
-  public boolean equals(Object obj) {
+  public boolean equals(final Object obj) {
     if (obj == null) {
       return false;
     }
@@ -97,6 +97,6 @@ public class Score {
     final Score other = (Score) obj;
     return true;
   }
-  
-  
+
+
 }

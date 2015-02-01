@@ -11,9 +11,7 @@ package enyrl.database;
  * @author rnufer
  */
 public enum ScoreType {
-  OFFHAND, 
-  PRONE, 
+  OFFHAND,
+  PRONE,
   SITTING
-  
-  
 }

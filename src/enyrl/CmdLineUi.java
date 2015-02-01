@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+import enyrl.command.ScoreSheet;
+import enyrl.exception.ENYRLException;
 import enyrl.exception.MalformedArgumentException;
 import enyrl.helper.StringHelper;
 
@@ -74,21 +76,27 @@ public class CmdLineUi
 //      }
     }
 
-    switch(eCmdToDo)
+    try
     {
-      case DATA_ENTRY:
-        System.out.println("I would do data entry now if Keith would just write the code for it!");
-        break;
-      case SCORE_SHEET:
-        System.out.println("I would print a score sheet now if Keith would just write the code for it!");
-
-        break;
-      case HELP:
-        printUsage();
-        break;
-      default:
-        // No-op
-        break;
+      switch(eCmdToDo)
+      {
+        case DATA_ENTRY:
+          System.out.println("I would do data entry now if Keith would just write the code for it!");
+          break;
+        case SCORE_SHEET:
+          final ScoreSheet s = new ScoreSheet();
+          s.execute();
+          break;
+        case HELP:
+          printUsage();
+          break;
+        default:
+          // No-op
+          break;
+      }
+    } catch (final ENYRLException e)
+    {
+      e.printStackTrace();
     }
   }
 
