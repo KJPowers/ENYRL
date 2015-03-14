@@ -39,5 +39,25 @@
   <target name="run" depends="dist" description="Run, dammit!  Run!">
     <java classname="enyrl.CmdLineUi" classpath="${dist}/bin/ENYRL.jar" fork="true" />
   </target>
+  
+  <!-- Targets to test the various run comamnds -->
+
+  <target name="run.help" depends="dist" description="Run the help comamnd">
+    <java classname="enyrl.CmdLineUi" classpath="${dist}/bin/ENYRL.jar" fork="true">
+      <arg value="-h" />
+    </java>
+  </target>
+
+  <target name="run.scoreSheet" depends="dist" description="Run the scoresheet command">
+    <java classname="enyrl.CmdLineUi" classpath="${dist}/bin/ENYRL.jar" fork="true">
+      <arg value="-s" />
+    </java>
+  </target>
+
+  <target name="run.dataEntry" depends="dist" description="Run the scoresheet command">
+    <java classname="enyrl.CmdLineUi" classpath="${dist}/bin/ENYRL.jar" fork="true">
+      <arg value="-d" />
+    </java>
+  </target>
 </project>
 
