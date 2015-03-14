@@ -21,7 +21,7 @@ import enyrl.exception.ENYRLException;
 import enyrl.model.Match;
 import enyrl.model.Season;
 
-public class ScoreSheet implements ICommand
+public class ScoreSheetCommand implements ICommand
 {
   private static final String s_strTemplatePath = "report/ScoreSheet.html";
   private static final String s_strVarPrefix = "$";

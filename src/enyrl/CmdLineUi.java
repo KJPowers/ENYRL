@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import enyrl.command.ScoreSheet;
+import enyrl.command.DataEntryCommand;
+import enyrl.command.ScoreSheetCommand;
 import enyrl.exception.ENYRLException;
 import enyrl.exception.MalformedArgumentException;
 import enyrl.helper.StringHelper;
@@ -81,10 +82,11 @@ public class CmdLineUi
       switch(eCmdToDo)
       {
         case DATA_ENTRY:
-          System.out.println("I would do data entry now if Keith would just write the code for it!");
+          final DataEntryCommand d = new DataEntryCommand();
+          d.execute();
           break;
         case SCORE_SHEET:
-          final ScoreSheet s = new ScoreSheet();
+          final ScoreSheetCommand s = new ScoreSheetCommand();
           s.execute();
           break;
         case HELP:
