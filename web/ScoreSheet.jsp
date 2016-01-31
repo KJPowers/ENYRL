@@ -2,9 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>ENYRL Score Sheet</title>
-    <style>
-      <link rel="stylesheet" type="text/css" href="ScoreSheet.css">
-    </style>
+    <link rel="stylesheet" type="text/css" href="ScoreSheet.css">
   </head>
   <body>
     <%! enyrl.model.jsp.MMatch myMatch = enyrl.factory.MatchLoader.loadMatch(); %>
