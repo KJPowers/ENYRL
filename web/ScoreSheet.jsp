@@ -115,11 +115,11 @@
           <table class="TopScores">
             <tr><th colspan="2">Shooter</th>                                  <th>Score</th>                                       </tr>
             <tr><td>1</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
+            <tr><td>2</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
+            <tr><td>3</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
+            <tr><td>4</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
+            <tr><td>5</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
+            <tr><td>6</td><td><%= myMatch.getNextHomeTopMarksmanName() %></td><td><%= myMatch.getNextHomeTopMarksmanScore() %></td></tr>
             <tr><td colspan="2">Raw Score Total</td>                    <td><%= myMatch.getHomeScoreTotal() %></td>                </tr>
             <tr><td colspan="2">Handicap</td>                           <td><%= myMatch.getHomeScoreHandicap() %></td>             </tr>
             <tr><td colspan="2">Final Score Total</td>                  <td id="FinalScore"><%= myMatch.getHomeScoreFinal() %></td></tr>
@@ -129,11 +129,11 @@
           <table class="TopScores">
             <tr><th colspan="2">Shooter</th>                                  <th>Score</th>                                       </tr>
             <tr><td>1</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
-            <tr><td>1</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
+            <tr><td>2</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
+            <tr><td>3</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
+            <tr><td>4</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
+            <tr><td>5</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
+            <tr><td>6</td><td><%= myMatch.getNextAwayTopMarksmanName() %></td><td><%= myMatch.getNextAwayTopMarksmanScore() %></td></tr>
             <tr><td colspan="2">Raw Score Total</td>                    <td><%= myMatch.getAwayScoreTotal() %></td>                </tr>
             <tr><td colspan="2">Handicap</td>                           <td><%= myMatch.getAwayScoreHandicap() %></td>             </tr>
             <tr><td colspan="2">Final Score Total</td>                  <td id="FinalScore"><%= myMatch.getAwayScoreFinal() %></td></tr>
